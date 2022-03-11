@@ -1,0 +1,23 @@
+
+
+<div style="text-align: end;">
+    <button class="btn" (click)="openCart()">Cart</button>
+</div>
+<div>
+    <div *ngFor="let cat of items" class="category-block">
+        <div class="row" >
+            <div class="col-12">
+                {{ cat.category }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" *ngFor="let product of cat.products">
+                <div >
+                    <img src="https://via.placeholder.com/300x300">
+                    <button (click)="addToCart(product)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

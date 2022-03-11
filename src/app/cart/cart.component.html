@@ -1,0 +1,11 @@
+<div>
+    <div class="row">
+        <div class="col-12" *ngFor="let item of selectedItems">
+            {{ item.count }}x {{ item.name }} - {{ item.price | currency:'USD':'symbol' }}
+            <p>{{ (item.price * item.count) | currency:'USD':'symbol' }}</p>
+        </div>
+        <div style="font-size: 30px;">
+      Total: <span slot="end">{{ total | currency:'USD':'symbol' }}</span>
+        </div>
+    </div>
+</div>

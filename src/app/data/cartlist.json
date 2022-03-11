@@ -1,0 +1,32 @@
+[
+    {
+        "category": "Pizza",
+        "expanded": true,
+        "products": [
+          { "id": 0, "name": "Salami", "price": 8 },
+          { "id": 1, "name": "Classic", "price": 5 },
+          { "id": 2, "name": "Tuna", "price": 9 },
+          { "id": 3, "name": "Hawai", "price": 7 }
+        ]
+    },
+    {
+        "category": "Salad",
+        "expanded": true,
+        "products": [
+          { "id": 0, "name": "Salami", "price": 8 },
+          { "id": 1, "name": "Classic", "price": 5 },
+          { "id": 2, "name": "Tuna", "price": 9 },
+          { "id": 3, "name": "Hawai", "price": 7 }
+        ]
+    },
+    {
+        "category": "Pasta",
+        "expanded": true,
+        "products": [
+          { "id": 0, "name": "Salami", "price": 8 },
+          { "id": 1, "name": "Classic", "price": 5 },
+          { "id": 2, "name": "Tuna", "price": 9 },
+          { "id": 3, "name": "Hawai", "price": 7 }
+        ]
+    }
+]
